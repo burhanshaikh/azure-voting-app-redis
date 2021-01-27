@@ -16,11 +16,12 @@ To walk through a quick deployment of this application, see the AKS [quick start
 
 To walk through a complete experience where this code is packaged into container images, uploaded to Azure Container Registry, and then run in and AKS cluster, see the [AKS tutorials](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app?WT.mc_id=none-github-nepeters).
 
-# Guidelines for a newly joined Developer
+## Guidelines for a newly joined Developer
 
-  ## InfraCloud Workflow and Branching Strategy
+  ## Our Workflow and Branching Strategy
     
-    This section represents InfraCloud's current branching and release strategy.
+    This section represents our current branching and release strategy.
+
     Forking Workflow is what we follow here. We have one main branch which is the Master.
 
     Steps to follow:
@@ -36,14 +37,14 @@ To walk through a complete experience where this code is packaged into container
 
   ## Commiting Guidelines
 
-    ### Pre-Commit Check
+     Pre-Commit Check
 
         We have a pre-commit check where you need to ensure the following:
         * Added only the relevant files to commit
         * Have updated the documentation pertaining to the commit
         * Know the relevant Jira Issue ID 
 
-    ### Commit Message Check
+     Commit Message Check
         
         We have a commit-msg check which ensures that you have mentioned the relevant Jira ID in the commit message.
 
